@@ -24,7 +24,7 @@ article{
     width: 60vw;
     margin: 0 auto;
     padding: 40px;
-    background: turquoise;
+    
 }
 
 figure{
@@ -79,4 +79,10 @@ footer > p{
     width: 60vw;
     margin-bottom:0;
     padding-left: 40px;
+}
+
+@media screen and (max-width:100px) {
+    article{
+        background: red;
+    }
 }
