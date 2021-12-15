@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    
 }
 
 header, footer{
@@ -15,6 +21,42 @@ header, footer{
     color:white;
     height: 60px;
 }
+
+nav{
+    width: 60vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
+
+nav > ul > li{
+    font-family:'Open Sans', sans-serif; 
+    width: 50%;
+    height: 70%;
+    background: rgb(153, 152, 152);
+    border-radius: 2px;
+}
+
+nav > ul > li > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
 
 h1{
     font-size: 250%;
@@ -75,6 +117,24 @@ video{
     border-radius: 5px;
 }
 
+.top{
+    width: 70px;
+    height: 70px;
+    background: #222831;
+    border: none;
+    font-size: 120%;
+    font-family:'Open Sans', sans-serif; 
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    bottom: 100px;
+    right: 75px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer{
     height: 60px;
     display: flex;
@@ -88,13 +148,7 @@ footer > p{
     padding-left: 40px;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width:100px) {
-    article{
-        background: red;
-    }
-}
-=======
+
 @media screen and (max-width:1000px) {
     article{
         width: 80vw;
@@ -104,6 +158,14 @@ footer > p{
     }
     img:hover{
         transform: none;
+    }
+    .top{
+        width: 50px;
+        height: 50px;
+        bottom: 50px;
+        right: 45px;
+        font-size: 110%;
+
     }
 }
 
@@ -123,4 +185,4 @@ footer > p{
         padding-left: 20px;
     }
 }
->>>>>>> 001bbf7f72005b0dde8b43007cff885502d9bdde
+
