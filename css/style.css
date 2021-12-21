@@ -82,6 +82,11 @@ figure{
     margin-bottom: 40px;
 }
 
+#indeximg{
+    filter:blur(3px)
+
+}
+
 img{
     width: 100%;
     margin-top: 20px;
@@ -89,8 +94,20 @@ img{
     transition: 0.5s transform;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
 
-img:hover{
+.bottem-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    transition: 0.5s transform;
+}
+
+img:hover, .bottem-left:hover{
     transform: scale(1.05);
 }    
 
