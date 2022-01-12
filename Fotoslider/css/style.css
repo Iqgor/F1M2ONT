@@ -12,7 +12,38 @@ body{
 }
 
 figure{
-    width: 400px;
-    height: 400px;
-    background: red;
+    width: 800px;
+    height: 600px;
+    background-size: cover;
+    animation-name: fotoslider ;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fotoslider {
+    0%{
+        opacity: 0;
+        background-image: url("../img/Battlefield-2042-portals-screenshot-01-en-25aug21.jpg");
+    }
+    12.5%{
+        opacity: 1;
+        background-image: url("../img/Battlefield-2042-portals-screenshot-01-en-25aug21.jpg");
+    }
+    24%{
+        opacity: 0;
+        background-image: url("../img/Final-Battlefield-2042-Specialists.jpg");
+    }
+    25%{
+        opacity: 1;
+        background-image: url("../img/Final-Battlefield-2042-Specialists.jpg");
+    }
+    50%{
+        background-image: url("../img/review-halo-infinite-zet-halo-weer-op-het-goede-pad.jpg");
+    }
+    75%{
+        background-image: url("../img/poster1.png");
+    }
+    100%{
+        background-image: url("../img/pikminbloom.webp");
+    }
 }
