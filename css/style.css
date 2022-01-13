@@ -115,10 +115,11 @@ article{
     object-fit: cover;
     margin-top: 0;
     border-radius: 50px;
+    
 }
 
 .acindex > a > figure > img:hover{
-    transform: none;
+    transform: none
 }
 
 .acindex > a > section{
@@ -134,8 +135,9 @@ article{
     display: flex;
     justify-content: flex-end;
     flex-direction: column
-    
 }
+
+
 
 .acindex > section > p{
     margin: 0;
