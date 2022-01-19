@@ -36,6 +36,44 @@ body{
     letter-spacing: 1px;
 }
 
+.headerButton:hover{
+    cursor: pointer;
+}
+
+.mainNav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainNavList{
+    list-style: none;
+    
+    
+}
+
+.mainNavListItem{
+    font-size: 350%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mainNavListItem > a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.mainNavListItem:first-of-type{
+    margin-bottom: 20px;
+}
+
 .bigFigure{
     width: 100%;
     height: 110vh;
