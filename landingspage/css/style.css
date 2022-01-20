@@ -12,11 +12,12 @@ body{
 .header{
     background: black;
     display: flex;
-    height: 80px;
+    height: 120px;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 .headerTitle{
@@ -35,6 +36,44 @@ body{
     letter-spacing: 1px;
 }
 
+.headerButton:hover{
+    cursor: pointer;
+}
+
+.mainNav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainNavList{
+    list-style: none;
+    
+    
+}
+
+.mainNavListItem{
+    font-size: 350%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.mainNavListItem > a{
+    color:white;
+    text-decoration: none;
+    
+}
+
+.mainNavListItem:first-of-type{
+    margin-bottom: 20px;
+}
+
 .bigFigure{
     width: 100%;
     height: 110vh;
@@ -50,13 +89,12 @@ body{
 .collections{
    width: 100%;
    padding: 40px;
-   background: blue;
    
 }
 
 .collectionsTitle, .infoTitle{
     font-size: 350%;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: 400;
     margin-bottom:40px ;
@@ -86,9 +124,55 @@ body{
 }
 
 .info{
-    background: green;
     padding: 40px;
     display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
     
 }
 
+.block{
+    width: 400px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+
+.footer{
+    height: 120px;
+    background: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.footerNav{
+    list-style: none;
+}
+
+.footerNavItem{
+    font-size: 80%;
+    font-style: italic;
+}
+
+.footerNavItem > a{
+    color: white;
+    text-decoration:none;
+}
+
+.footer > address{
+    font-size: 80%;
+}
+
+@media screen and (max-width:700px) {
+    body{
+        font-size: 14px;
+    }
+    .headerTitle{
+        font-size: 380%;
+    }
+}
