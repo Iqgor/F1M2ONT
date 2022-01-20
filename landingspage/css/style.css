@@ -7,6 +7,8 @@
 body{
     font-family: sans-serif;
     font-size: 16px;
+    animation-name: opening;
+    animation-duration: 0.8s;
 }
 
 .header{
@@ -50,6 +52,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s all;
+}
+
+.closeButton{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-transform: uppercase;
+    background:transparent;
+    color: white;
+    border: none;
+    font-size: 500%;
+}
+
+.closeButton:hover{
+    cursor: pointer;
 }
 
 .mainNavList{
@@ -175,4 +195,16 @@ body{
     .headerTitle{
         font-size: 380%;
     }
+}
+
+@keyframes opening {
+    from{
+        opacity: 0;
+     
+    }
+    to{
+        opacity: 1;
+        
+    }
+
 }
