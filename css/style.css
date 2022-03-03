@@ -10,7 +10,7 @@ html{
 
 
 body{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
        
@@ -19,11 +19,11 @@ body{
 header, footer{
     background-color: #333c49;
     color:white;
-    height: 65px;
+    height: 4.0625rem;
 }
 
 main{
-    padding:40px;
+    padding:2.5rem;
     min-height: 100vh;
     width: 60vw;
     margin: 0 auto;
@@ -42,7 +42,7 @@ nav > ul{
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 1.25rem;
     
 }
 
@@ -81,25 +81,25 @@ h1{
 section{
     width: 100%;
     
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 section > h1 { 
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 article{
     width: 100%;
     margin: 0 auto;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .acindex{
     width: 100%;
-    height: 400px;
+    height: 25rem;
     padding: 0;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .acindex > a > figure{
@@ -114,7 +114,7 @@ article{
     height: 100%;
     object-fit: cover;
     margin-top: 0;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     
 }
 
@@ -126,12 +126,12 @@ article{
     position: absolute;
     bottom:0;
     left: 0;
-    padding: 40px;
+    padding: 2.5rem;
     color: white;
     width: 100%;
     height: 100%;
     background: linear-gradient(transparent,60%,black);
-    border-radius: 50px;
+    border-radius: 3.125rem;
     display: flex;
     justify-content: flex-end;
     flex-direction: column
@@ -144,7 +144,7 @@ article{
 }
 
 figure{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 
@@ -155,7 +155,7 @@ figure{
 
 img{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     border-radius: 5px;
     transition: 0.5s transform;
 }
@@ -168,8 +168,8 @@ img{
 
 .bottem-left {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 0.5rem;
+    left: 1rem;
     transition: 0.5s transform;
 }
 
@@ -178,11 +178,11 @@ img:hover, .bottem-left:hover{
 }    
 
 p{
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 p:first-of-type{
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 p:lastof-type{
@@ -194,23 +194,23 @@ figcaption{
     font-size: 80%;
     font-style: italic;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 audio{
     display: block;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 video{
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 2.5px;
     border-radius: 5px;
 }
 
 .top{
-    width: 70px;
-    height: 70px;
+    width: 4.375rem;
+    height: 4.375rem;
     background: #222831;
     border: none;
     font-size: 120%;
@@ -218,8 +218,8 @@ video{
     border-radius: 5px;
     color: white;
     position: fixed;
-    bottom: 100px;
-    right: 75px;
+    bottom: 6.25rem;
+    right: 4.688rem;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -227,7 +227,7 @@ video{
 }
 
 footer{
-    height: 60px;
+    height: 3.75rem;
     display: flex;
     justify-content: center;
 }
@@ -235,7 +235,7 @@ footer{
 footer > p{
     width: 60vw;
     margin-bottom:0;
-    padding-left: 80px;
+    padding-left: 5rem;
 }
 
 
@@ -250,10 +250,10 @@ footer > p{
         transform: none;
     }
     .top{
-        width: 50px;
-        height: 50px;
-        bottom: 50px;
-        right: 45px;
+        width: 3.125rem;
+        height: 3.125rem;
+        bottom: 3.125rem;
+        right: 2.813rem;
         font-size: 110%;
     }
     header{
@@ -268,24 +268,24 @@ footer > p{
     }
     nav > ul > li{
         width: 100%;
-        height: 50px;
+        height: 3.125rem;
     }
 }
 
 @media screen and (max-width:600px) {
     main{
         width: 100vw; 
-        padding: 20px;
+        padding: 1.25rem;
     }
     body{
-        font-size: 16px;
+        font-size: 1rem;
     }
     h1{
         font-size: 180%;
     }
     footer > p {
         width: 100vw;
-        padding-left: 60px;
+        padding-left: 3.75rem;
     }
 }
 
